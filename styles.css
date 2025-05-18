@@ -157,7 +157,7 @@ body {
 
 /* Dark theme adjustments for mobile nav */
 .dark-theme .nav-links {
-    background-color: rgba(22, 27, 34, 0.95);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .dark-theme .bar {
