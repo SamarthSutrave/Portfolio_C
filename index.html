@@ -33,7 +33,7 @@
         <div class="hero-content">
             <img src="profile.jpg" alt="Profile Photo" class="profile-pic">
             <h1>Samarth Sutrave</h1>
-            <p>Information Science Student UVCE | Web Developer | Data Analyst</p>
+            <p>Information Science Student UVCE | Software Developer | ex-intern at Flexi Analyst</p>
             <a href="#contact" class="cta-button">Get in Touch</a>
         </div>
     </section>
@@ -135,23 +135,125 @@
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <h2>My Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <img src="https://via.placeholder.com/300x200" alt="Rescue Hub">
-                <h3>Rescue Hub</h3>
-                <p>A Disaster Management System developed using HTML, CSS, JavaScript, Node.js, and Firebase. Features include real-time weather reports, AI chat assistance, geolocation-based disaster alerts, and emergency tutorials.</p>
-                <div class="project-links">
-                    <a href="https://rescuehub.com" class="project-link">Live Demo</a>
-                    <a href="#" class="project-link">GitHub</a>
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="backend">Backend</button>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card" data-category="web">
+                <div class="project-image">
+                    <img src="famous/dMs.jpg?height=300&width=500" alt="DMS">
+                </div>
+                <div class="project-info">
+                    <h3>Disaster Management System -Resque Hub</h3>
+                    <p> This provides a robust platform for users to stay informed, prepared, and connected during emergencies and everyday situations. also have additional features like weather updates, disaster news, and emergency resources.The chatbot helps users get information about the disaster and the resources available.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://rescuehub.netlify.app/" target="_blank" class="btn small secondary">Live Demo</a>
+                        <a href="https://github.com/SamarthSutrave/Disaster-Management-system-" target="_blank" class="btn small secondary">GitHub</a>
+                    </div>
                 </div>
             </div>
-            <div class="project-card">
-                <img src="https://via.placeholder.com/300x200" alt="Digital-Closest">
-                <h3>Digital-Closest</h3>
-                <p>A wardrobe management system promoting sustainability through suggestions, analytics, and exchanges. Built with EJS, HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB. Secured second place in state-level competition "Bit n Build".</p>
-                <div class="project-links">
-                    <a href="#" class="project-link">Live Demo</a>
-                    <a href="#" class="project-link">GitHub</a>
+            <div class="project-card" data-category="backend">
+                <div class="project-image">
+                    <img src="famous/tradepro.png?height=300&width=500" alt="trade pro">
+                </div>
+                <div class="project-info">
+                    <h3>Stock Management System:TradePro</h3>
+                    <p>TradePro is a full-featured web-based trading platform that allows users to manage portfolios, buy and sell stocks, track performance, and manage their wallet. This application provides a comprehensive trading experience with real-time data visualization and user account management.</p>
+                    <div class="project-tags">
+                        <span>Ejs</span>
+                        <span>CSS</span>
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>MySQL</span>
+                        <span>Multer</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/prajwaldp223/TradePro" target="_blank" class="btn small secondary">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-category="web">
+                <div class="project-image">
+                    <img src="famous/college.png?height=300&width=500" alt="college connect">
+                </div>
+                <div class="project-info">
+                    <h3>College Connect</h3>
+                    <p>Its is website for college students to get each and every information regarading the college and the events happening in the college. they can schedule, join, give feedbacks, and get the information about the college. login and signup are also provided.this website is responsive and has a clean and modern design making students comfortable with the website.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                        <span>Firebase</span>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://65df33f6fec83d0c0be3d508--comfy-lokum-5f0060.netlify.app/" target="_blank" class="btn small secondary">Live Demo</a>
+                        <a href="https://github.com/SamarthSutrave/Collage_Connect" target="_blank" class="btn small secondary">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-category="web">
+                <div class="project-image">
+                    <img src="famous/detox.png" alt="detox yantra">
+                </div>
+                <div class="project-info">
+                    <h3>Detox_Yantra</h3>
+                    <p>Featuring our webpage DETOX YANTRA help our user stay away being addicted to digital stuff.an user firendly dasgboard the feedback system, signin. regular monitring display the user's progress and the time they spend on the digital stuff.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://663bab34e81fd7007ef6eeca--loquacious-genie-39a47f.netlify.app/" target="_blank" class="btn small secondary">Live Demo</a>
+                        <a href="https://github.com/prajwaldp223/Detox_Yantra" target="_blank" class="btn small secondary">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-category="backend">
+                <div class="project-image">
+                    <img src="famous/digital closet.png" alt="digital-closet">
+                </div>
+                <div class="project-info">
+                    <h3>Digital Closet</h3>
+                    <p>This project aims to help users to manage their wardrobe efficiently, track item usage, and promote sustainability by suggesting mindful practices like recycling, donating, or repurposing unused items. The platform provides personalized outfit suggestions, analytics on item usage, and community-driven features like clothing exchanges, </p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>EJS</span>
+                        <span>Bootstrap</span>
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://digital-closet.onrender.com/user/home" target="_blank" class="btn small secondary">Live Demo</a>
+                        <a href="https://github.com/SamarthSutrave/digital-closet" target="_blank" class="btn small secondary">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-category="all">
+                <div class="project-image">
+                    <img src="famous/central.png" alt="Centralized-Branch-File-Access-Management-System">
+                </div>
+                <div class="project-info">
+                    <h3>File-Access-Management-System</h3>
+                    <p>This document outlines the steps to create directories and users for different branches of an organization, and to set up access controls so that users can manage files within their respective branches. the admin/hr is given with certaion privilages to handle the other department and their emplyoees</p>
+                    <div class="project-tags">
+                        <span>LINUX -command line</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/SamarthSutrave/File-Access-Management" target="_blank" class="btn small secondary">GitHub</a>
                 </div>
             </div>
         </div>
@@ -169,7 +271,7 @@
             <div class="achievement-card">
                 <i class="fas fa-users"></i>
                 <h3>E-Cell UVCE</h3>
-                <p>Core team member of Operation Team E-Cell UVCE. Orchestrated and led impactful webinars, workshops, and events, fostering a vibrant learning environment.</p>
+                <p>Vice Precident ofE-Cell UVCE. Orchestrated and led impactful webinars, workshops, and events, fostering a vibrant learning environment.</p>
             </div>
             <div class="achievement-card">
                 <i class="fas fa-microphone"></i>
@@ -192,7 +294,7 @@
                 <p><i class="fas fa-map-marker-alt"></i> UVCE Boys hostel, Bangalore</p>
                 <p><i class="fas fa-phone"></i> +91 8660267587 (Work)</p>
                 <p><i class="fas fa-envelope"></i> samarthsutrave28@gmail.com</p>
-                <p><i class="fas fa-linkedin"></i> <a href="https://www.linkedin.com/in/samarthsutrave-93864425b" target="_blank">LinkedIn Profile</a></p>
+                <p><i class="fas fa-linkedin"></i> <a href="https://www.linkedin.com/in/samarth-sutrave/" target="_blank">LinkedIn Profile</a></p>
             </div>
             <form id="contact-form">
                 <div class="form-group">
@@ -208,7 +310,7 @@
             </form>
             <div class="social-links">
                 <a href="https://github.com/SamarthSutrave" class="social-link"><i class="fab fa-github"></i></a>
-                <a href="https://linkedin.com/samarth-sutrave" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/samarth-sutrave/" class="social-link"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
     </section>
