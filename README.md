@@ -4,7 +4,6 @@ A modern, responsive portfolio website showcasing my skills, experience, and pro
 
 ## Features
 
-- 🌓 Dark/Light theme toggle
 - 📱 Fully responsive design
 - 🎨 Modern UI with smooth animations
 - 📬 Contact form with EmailJS integration
